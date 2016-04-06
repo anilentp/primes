@@ -1,0 +1,22 @@
+ .cpu-back{
+  	width: 100%;
+  	position: relative;
+  	left: 0;
+
+ }
+ a:link{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+a:hover{
+	color: #0dc0c0;
+}
+li{
+	display: inline;
+	margin: 5% 0;
+}
+.menu{
+	position: absolute;
+	left: 15%;
+}
