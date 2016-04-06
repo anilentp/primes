@@ -1,0 +1,30 @@
+/*desde sección "call to action"*/
+*{
+	font-family: 'Open Sans';
+}
+
+.calltoaction-img{
+	background-image:url(../img/background/city.jpg);
+	height: 400px;
+	background-size: cover;
+}
+
+.calltoaction{
+	text-align: center;
+	font-family: 'Open Sans';
+	padding:110px;
+}
+
+.calltoaction-boton{
+	text-align: center;
+	font-weight: bold;
+	border:1px  solid transparent;
+	padding:15px;
+	margin: 0px 100px 30px 550px;
+	width: 150px;
+	background-color: white;
+	color:red;
+	background: rgba(255,255,255, 0.2);
+}
+
+/*fin sección "call to action"*/
