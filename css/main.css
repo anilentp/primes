@@ -106,7 +106,91 @@ li{
 	width: 150px;
 	background-color: white;
 	color:red;
-	background: rgba(255,255,255, 0.2);
+	background: rgba(255,255,255, 0.3);
 }
 
 /*fin sección "call to action"*/
+
+/*comienzo sección "package"*/
+
+.text-choose{
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.text-choose-small{
+	margin-bottom: 50px;
+}
+
+.caja-purchase{
+	border:1px solid gray;
+	width: 300px;
+	padding:30px;
+	margin:0px 0px 0px 10px;
+	display: inline-block;
+}
+
+.caja-left{
+	margin-left: 150px;
+}
+
+.standard-ultimate{
+	background-color: #30313a;
+	border: 1px solid transparent;
+	padding:25px;
+	width: 250px;
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+}
+
+.premium{
+	background-color: #46cace;
+	border: 1px solid transparent;
+	padding:25px;
+	width: 250px;
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+}
+
+.caja-number{
+	background-color: #c9c9c9;
+	text-align: center;
+	display: inline-block;
+	padding: 20px 45px;
+	width: 212px;
+}
+
+.number{
+ 	color:#30313a;
+ 	font-size: 25px;
+ 	display: inline-block;
+ 	text-align: center;
+}
+
+.lista-purchase{
+	list-style: none;
+	text-align: center;
+	padding-right: 40px; /*había una propiedad que aplicaba un padding-left de 40px que no pude encontrar*/
+}
+
+.lista-purchase2{
+	margin: 20px 0px;
+}
+
+hr{
+	opacity: 0.5;
+	width: 250px;
+}
+
+.boton-purchase{
+	text-align: center;
+	font-weight: bold;
+	background-color: #30313a;
+	border: 1px solid transparent;
+	padding: 5px;
+	width: 100px;
+	color: #c9c9c9;
+	margin:20px 50px 20px 90px;
+}
