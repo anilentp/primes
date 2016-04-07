@@ -1,22 +1,112 @@
- .cpu-back{
-  	width: 100%;
-  	position: relative;
-  	left: 0;
-
+*{
+	font-family: 'Open Sans';
+}
+ header{
+ 	background-color: black;
+ 	width: 100%;
  }
- a:link{
+
+ .cpu-back{
+ 	width: 100%; 	
+ 	opacity: 0.6;
+}
+ a:link {
 	text-decoration: none;
 	text-align: center;
 	color: white;
+	font-weight: 600;
+	display: inline-block;
+	margin-left: 5%;
 }
 a:hover{
 	color: #0dc0c0;
 }
 li{
 	display: inline;
-	margin: 5% 0;
+	margin-top: 5%;
 }
 .menu{
 	position: absolute;
-	left: 15%;
+	top: 1%;
+	right: 5%;
 }
+.title{
+	position: absolute;
+	top: 1%;
+	left: 5%;
+}
+.info{
+	font-size: 50px;
+	width: 100%;
+}
+.portada{
+	position: absolute;
+	top: 34%;
+	width: 100%;
+}
+.phrase{
+	position: absolute;
+	top: 80px; 
+	left: 17%;
+}
+.transp{
+	display: inline-block;
+	padding: 10px;
+	background-color: white;
+	opacity: 0.1;
+	margin: 0 auto;	
+}
+.dark{
+	display: inline-block;
+	padding: 5px;
+	background-color: #484C55;
+	margin: 0 auto;
+}
+.button{
+	position: absolute;
+	bottom: 20px;
+	left: 20%;
+	display: inline;
+	margin: 0 auto;
+}
+.icons{
+	display: inline;
+	background-color: white;
+}
+.icono{
+	font-size: 20px;
+}
+.laptop{
+	width: 100%;
+}
+.features{
+	margin: 2%;
+}
+
+/*desde sección "call to action"*/
+
+.calltoaction-img{
+	background-image:url(../img/background/city.jpg);
+	height: 400px;
+	background-size: cover;
+}
+
+.calltoaction{
+	text-align: center;
+	font-family: 'Open Sans';
+	padding:110px;
+}
+
+.calltoaction-boton{
+	text-align: center;
+	font-weight: bold;
+	border:1px  solid transparent;
+	padding:15px;
+	margin: 0px 100px 30px 550px;
+	width: 150px;
+	background-color: white;
+	color:red;
+	background: rgba(255,255,255, 0.2);
+}
+
+/*fin sección "call to action"*/
