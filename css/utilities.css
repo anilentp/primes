@@ -35,6 +35,9 @@ strong {
 .pl-5{
 	padding-left: 5%;
 }
+.pl-8{
+	padding-left: 8%;
+}
 .pr-5{
 	padding-right: 5%;
 }
@@ -56,7 +59,9 @@ strong {
 .text-right{
 	text-align: right;
 }
-
+.text-black{
+	color: black;
+}
 .text-white{
 	color: white;
 }

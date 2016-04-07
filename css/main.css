@@ -1,6 +1,7 @@
 *{
 	font-family: 'Open Sans';
 }
+/*inicio sección "header"*/
  header{
  	background-color: black;
  	width: 100%;
@@ -10,7 +11,7 @@
  	width: 100%; 	
  	opacity: 0.6;
 }
- a:link {
+ a:link{
 	text-decoration: none;
 	text-align: center;
 	color: white;
@@ -52,29 +53,32 @@ li{
 .transp{
 	display: inline-block;
 	padding: 10px;
-	background-color: white;
-	opacity: 0.1;
-	margin: 0 auto;	
+	background: rgba(255,255,255, 0.1);
+	margin: 5px;
+	padding: 15px;
+	position: absolute;
+	top: 63%;
+	right: 39%;
 }
 .dark{
 	display: inline-block;
-	padding: 5px;
+	padding: 15px;
 	background-color: #484C55;
-	margin: 0 auto;
-}
-.button{
+	margin: 5px;
 	position: absolute;
-	bottom: 20px;
-	left: 20%;
-	display: inline;
-	margin: 0 auto;
+	top: 63%;
+	left: 33%;
 }
+/*fin sección "header"*/
+/*inicio sección "features"*/
 .icons{
 	display: inline;
 	background-color: white;
+	padding: 2%;
+	font-size: 14px;
 }
 .icono{
-	font-size: 20px;
+	font-size: 50px;
 }
 .laptop{
 	width: 100%;
@@ -82,7 +86,25 @@ li{
 .features{
 	margin: 2%;
 }
+.iconlittle{
+	display: inline;
+	font-size: 30px;
+	position: absolute;
+}
+/*fin sección "features"*/
+/*inicio sección "portfolio"*/
+.polaroid{
+	display: inline-block;
+	box-shadow: 2px;
+}
+.fotos{
+	margin:2%;
+	background-color: white;
+	padding: 3%  3%  15% 3%;
+	width: 100%;
+}
 
+/*fin sección "portfolio"*/
 /*desde sección "call to action"*/
 
 .calltoaction-img{
@@ -105,7 +127,7 @@ li{
 	margin: 0px 100px 30px 550px;
 	width: 150px;
 	background-color: white;
-	color:red;
+	color:white;
 	background: rgba(255,255,255, 0.3);
 }
 
